@@ -15,10 +15,10 @@ Circle(4) = {5,1,2};
 Curve Loop(5) = {1,2,3,4};
 
 
-Point(6) = {-3,-2,0,lc2};
-Point(7) = {-3,2,0,lc2};
-Point(8) = {7,2,0,lc2};
-Point(9) = {7,-2,0,lc2};
+Point(6) = {-5,-2,0,lc2};
+Point(7) = {-5,2,0,lc2};
+Point(8) = {5,2,0,lc2};
+Point(9) = {5,-2,0,lc2};
 
 
 c_pts1[] = Translate {0, 0.8, 0} { Duplicata{ Point {1,2,3,4,5}; } };
